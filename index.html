@@ -18,8 +18,13 @@
     .header {
       background: url(galaxy_stars.png) no-repeat center center; 
       background-size: cover;
-      height: 800px;
+      height: 600px;
       text-align: center; 
+    }
+    .header h1 {
+      font-size: 80px;
+      color:white;
+      line-height: 100px;
     }
     .header .container {
       position: relative;
@@ -28,6 +33,25 @@
     .galaxy {
       background-color: white;
       border-radius: 3px;
+    }
+    .nav { 
+      background:slateblue;
+      height: 80px; 
+      width: 100%;
+    }
+    .nav ul {
+      height: 80px;
+      list-style: none;
+      margin: 0 auto; 
+      padding: 0;
+    }
+    .nav ul li {
+      display: inline-block; 
+      height: 80px;
+      line-height: 80px; 
+      list-style: none;
+      padding: 0 10px;
+      transition: background .5s; 
     }
     body {
       background-color: white;
@@ -105,12 +129,18 @@
     <div class="header">
       <div class="container">
     <h1>EMA'S BLOG</h1>
-    <a href="Ema-blog-astronomy.html"><i class="fas fa-rocket"></i></a>
-    <a href="user.html"><i class="fas fa-user"></i></a>
-    <a href="books.html"><i class="fas fa-book"></i></a>
     <p>Hy everybody and welcome to my blog. Here you will learn about astronomy. Have fun!! </p>
   </div>
   </div>
+  <div class="nav">
+  <div class="container">
+    <ul>
+  <li><a href="Ema-blog-astronomy.html"><i class="fas fa-rocket"></i></a></li>
+  <li><a href="user.html"><i class="fas fa-user"></i></a></li>
+  <li><a href="books.html"><i class="fas fa-book"></i></a></li>
+</ul>
+</div>
+</div>
     <h2>New post's </h2>
     <!--<div class="bang1">
       <a href="stars.html"><h1 class="bang">Stars</h1></a>
