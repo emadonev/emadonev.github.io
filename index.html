@@ -6,6 +6,29 @@
   <meta charset="utf-8">
   <title>Home page </title>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 0 auto;
+      max-width: 940px; 
+      padding: 0 10px;
+    }
+    .header {
+      background: url(galaxy_stars.png) no-repeat center center; 
+      background-size: cover;
+      height: 800px;
+      text-align: center; 
+    }
+    .header .container {
+      position: relative;
+      top: 200px;
+    }
+    .galaxy {
+      background-color: white;
+      border-radius: 3px;
+    }
     body {
       background-color: white;
     }
@@ -38,18 +61,6 @@
       margin-left:100px;
       margin-right:100px;
       margin-top:40px;
-    }
-    .p- {
-      text-align:justify;
-      font-family: "Comfortaa", cursive;
-      color:black;
-      padding-left: 10px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      letter-spacing:5px;
-      margin-top:470;
-      padding-left: 60px;
-      padding-right: 60px;
     }
     h2 {
       font-family: "Montserrat", sans-serif;
@@ -91,11 +102,15 @@
     </style>
   </head>
   <body>
-    <h1>Ema's blog</h1>
+    <div class="header">
+      <div class="container">
+    <h1>EMA'S BLOG</h1>
     <a href="Ema-blog-astronomy.html"><i class="fas fa-rocket"></i></a>
     <a href="user.html"><i class="fas fa-user"></i></a>
     <a href="books.html"><i class="fas fa-book"></i></a>
     <p>Hy everybody and welcome to my blog. Here you will learn about astronomy. Have fun!! </p>
+  </div>
+  </div>
     <h2>New post's </h2>
     <!--<div class="bang1">
       <a href="stars.html"><h1 class="bang">Stars</h1></a>
