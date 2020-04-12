@@ -6,6 +6,30 @@
   <meta charset="utf-8">
   <title>Lesson 1: The Big Bang Theory</title>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 0 auto;
+      max-width: 940px; 
+      padding: 0 10px;
+    }
+    .header {
+      background: url(big_bang.png) no-repeat center center; 
+      background-size: cover;
+      height: 600px;
+      text-align: center; 
+    }
+    .header1 {
+      font-size: 80px;
+      color:white;
+      line-height: 100px;
+    }
+    .header .container {
+      position: relative;
+      top: 200px;
+    }  
     img {
       padding-top:20px;
       width: 250px;
@@ -18,13 +42,13 @@
     h1 {
       font-family: "Montserrat", sans-serif;
       font-size:50px;
-      color:white;
+      color: #41cde1;
       text-align:center;
     }
     h2 {
       font-size:30px;
       font-family: "Montserrat", sans-serif;
-      color:#8594FF;
+      color:#ff748b;
       text-align:center;
     }
     p {
@@ -116,7 +140,11 @@
   </style>
 </head>
 <body>
-  <h1>THE BIG BANG THEORY </h1>
+  <div class="container">
+    <div class="header">
+  <h1 class="header1">THE BIG BANG THEORY </h1>
+  </div>
+  </div> 
   <h2>How did the universe begin? </h2>
   <h2> Where did all the matter and energy come from?</h2>
   <p class="basic">These are the basic questions about the universe.<br>
