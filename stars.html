@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta charset="utf-8">
     <title>Lesson 4: Stars</title>
     <style>
-      body {
-        background-image: url("galaxy_html.png");
-      }
+      html, body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 0 auto;
+      max-width: 940px; 
+      padding: 0 10px;
+    }
+    .header {
+      background: url(galaxy_stars.png) no-repeat center center; 
+      background-size: cover;
+      height: 600px;
+      text-align: center; 
+    }
+    .header1 {
+      font-size: 80px;
+      color:white;
+      line-height: 100px;
+    }
+    .header .container {
+      position: relative;
+      top: 200px;
+    }
+    .galaxy {
+      background-color: white;
+      border-radius: 3px;
+      padding-left: 30px;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+    }
+    .nav1 {
+      background:slateblue;
+      height: 80px; 
+      width: 100%;
+      margin-top: 30px;
+    }
+    .navul1 {
+      height: 80px;
+      list-style: none;
+      margin: 0 auto; 
+      padding: 0;
+    }
+    .navli1 {
+      font-family: "Comfortaa", cursive;
+      height: 80px;
+      list-style: none;
+      margin: 0 auto; 
+      padding: 0;
+      display: inline-block; 
+      height: 60px;
+      line-height: 80px; 
+      list-style: none;
+      padding: 0 10px;
+      transition: background .5s; 
+    }
+    body {
+      background-color: white;
+    }
       h2 {
         font-size:30px;
-        font-family: "Monoton";
-        color:#8594FF;
+        font-family: "Montserrat", sans-serif;
+        color:#ff748b;
         text-align:center;
-      }
-      h1 {
-        font-size:50px;
-        font-family: "Monoton";
-        color:white;
-        text-align:center;
-      }
-      .all {
-        background-color:white;
-        border-radius:7px;
-        padding-left:20px;
-        padding-right:20px;
-        margin-left: 100px;
-        margin-right: 100px;
       }
       p {
-        font-family: "Indie Flower";
+        font-family: "Comfortaa", cursive;
         color:black;
         letter-spacing:5px;
         text-align:justify;
-        background-color:white;
-        border-radius:7px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
       }
       .center {
         display: block;
@@ -56,7 +97,7 @@
         border-radius:7px;
       }
       ul {
-        font-family: "Indie Flower";
+        font-family: "Comfortaa", cursive;
         color:black;
         letter-spacing:5px;
         text-align:justify;
@@ -68,12 +109,12 @@
 
       }
       button {
-        font-family: "Indie Flower";
+        font-family: "Comfortaa", cursive;
         letter-spacing: 5px;
         padding-top: 20px;
         padding-bottom: 10px;
         border-radius: 5px;
-        background-color:#FA85FF;
+        background-color:#ff748b;
         color:white;
         margin-left:10px;
       }
@@ -85,7 +126,11 @@
       </style>
   </head>
   <body>
-    <h1>Stars </h1>
+    <div class="container">
+      <div class="header">
+    <h1 class="header1">Stars </h1>
+    <p class="galaxy">Learn about the very objects that lit this universe up...</p>
+  </div></div>
     <div class="all">
       <p>From previous posts we learned about the beginning of our universe, what
          it is made of and the main force, gravity, that governs it. What can we find
