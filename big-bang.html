@@ -30,8 +30,7 @@
       color: black;
       padding-left: 20px;
       padding-right: 20px;
-      margin-left: 450px;
-      margin-right: 350px;
+      text-align: center;
     }
     ul {
       display: block;
@@ -41,8 +40,7 @@
       color: black;
       padding-left: 20px;
       padding-right: 20px;
-      margin-left: 450px;
-      margin-right: 350px;
+      text-align: center;
     }
     li {
       display: block;
@@ -52,8 +50,6 @@
       color: black;
       padding-left: 20px;
       padding-right: 20px;
-      margin-left: 350px;
-      margin-right: 350px;
     }
     img {
       float: right;
@@ -65,8 +61,12 @@
       height: 400px;
       text-align: center;
     }
+    .big{
+      width: 600px;
+      height: 600px;
+    }
   </style>
-  <img src="big_bang.png">
+  <img class="big" src="big_bang.png">
   <h1>THE BIG BANG</h1>
   <p>Before we start our journey through the universe, every explorer needs to pack a few necesities. For
     this journey you will need:</p>
@@ -84,8 +84,10 @@
     <!-- Here goes the text about the big bang-->
     <p>If you are more of a visual learner, check out this video about the big bang that includes everything written above, only easier to
       follow for visual learners.</p>
-    <video class="video" controls>
+      <div class="video">
+    <video controls>
       <source src="The_Birth_of_the_Universe.mp4" type="video/mp4">
        </video>
+      </div>
 </body>
 </html>
